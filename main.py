@@ -11,6 +11,7 @@ if __name__ == '__main__':
         exibir_menu()
         print()
         opcao = input('Opção desejada: ')
+        os.system('cls')
 
         match opcao:
             case '1':
