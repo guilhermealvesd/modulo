@@ -1,6 +1,18 @@
+#Importando biblioteca de dados
+
+from datetime import date
+
 #Função Menu
 
 def exibir_menu():
+    
+    meses = ('Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro')
+    
+    dia = date.today().day
+    mes = date.today().month
+    ano = date.today().year
+
+    print(f'\n{dia} de {meses[mes - 1]} de {ano}. \n')
     print('1 - Calcular quadrilátero')
     print('2 - Calcular círculo.')
     print('3 - Calcular triângulo.')

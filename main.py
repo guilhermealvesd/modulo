@@ -7,7 +7,7 @@ from modulo import *
 
 if __name__ == '__main__':
     while True:
-        print(f'{'*'*30} CALCULADORA DE ÁREA {'*'*30}\n')
+        print(f'{'*'*30} CALCULADORA DE ÁREA {'*'*30}')
         exibir_menu()
         print()
         opcao = input('Opção desejada: ')
